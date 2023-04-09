@@ -1,5 +1,5 @@
-# Moving-Average-Filter
-The moving average filter is easy-to-understand, and implement. While effective
+# Moving-Averaging-Filter
+The moving-averaging-filter is easy-to-understand, and implement. While effective
 on time domain, it is the worst filter in frequency domain. This averaging filter is
 done with the integration of C and MATLAB in mind. The basic equation of the filter
 is:
