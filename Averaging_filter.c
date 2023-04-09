@@ -23,7 +23,7 @@ void MATLAB_main(mxComplexDouble* w, double* y, double* x, size_t sizeSignal, do
 
 	//Calculating the frequency response
 	double omega = 0;
-	complex double num, dem, division_mag, division_angle, result;
+	complex double num, dem, division_mag, division_angle;
 
 	for (int i = 0; i <= sizeFreqResp; i++) {
 
