@@ -4,7 +4,7 @@ on Time Domain, it is the worst filter in Frequency Domain. The basic equation o
 the moving-average-filter is:
 
 ```math
-\frac{1}{M} \sum_{k=1}^{M-1} x[i+j]
+y(n) = \frac{1}{M} \sum_{j=1}^{M-1} x[n+j]
 ```
 
 On the other hand, the Frequency Response is given by:
