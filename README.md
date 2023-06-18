@@ -30,8 +30,8 @@ Then, an input signal can be simulated and the passed to the MEX function create
   , where 15 is the window size of the averaging-filter and 500 is the size of the
   Frequency Response.
 
-- When plotting, remember to use the absolute value (command abs() in MATLAB) when
-  passing the frequency_response to plot().
+- When plotting, remember to use the absolute value (command $abs()$ in MATLAB) when
+  passing the frequency_response to $plot()$.
 
 **Note:** In order to successfully run this program it is necessary to have MATLAB Coder
 installed, as well as the MinGW-w64 C/C++ compiler.
